@@ -1,0 +1,47 @@
+body {
+  margin: 0 auto;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.forecast {
+  width: 600px;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+.table, td {
+  text-align: center;
+  border: 1px solid black;
+}
